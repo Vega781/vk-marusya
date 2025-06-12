@@ -1,58 +1,79 @@
-# VK Marusya
+<div align="center">
+    <h1>🎬 VK Marusya Movie App</h1>
+    <p>Web application for viewing movie information with authorization, search, and favorites functionality.</p>
+</div>
 
-Web application for viewing movie information with authorization, search, and favorites functionality.
+## 📸 Screenshots
+
+![Профиль](./src/assets/screenshots/account_page.png)
+![Жанры](./src/assets/screenshots/genres_page.png)
+![Профиль](./src/assets/screenshots/account_page.png)
 
 ## 🚀 Features
 
-- View random movie on the home page
-- Search movies by title
-- Browse movies by genres
-- Watch trailers
-- User authorization
-- Add movies to favorites
-- Responsive design
+- React architecture with TypeScript
+- Vite as build tool
+- Movie information display including budget, revenue, director, and awards
+- Responsive design with CSS modules
+- GitHub Actions CI/CD pipeline
+- Production-ready deployment to GitHub Pages
 
-## 📋 Requirements
+## ⚙️ Installation
 
-- Node.js >= 18.0.0
-- npm >= 9.0.0
+1. Clone the repository
+```bash
+git clone [your-repository-url]
+cd vk-marusya
+```
 
-## 🛠 Technologies
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start development server
+```bash
+npm run dev
+```
+
+## 🛠 Build
+
+To build for production:
+```bash
+npm run build
+```
+
+## 📦 Project Structure
+
+```
+src/
+├── animations/     # Animation configurations
+├── api/           # API integrations and queries
+├── components/    # Reusable components
+├── pages/         # Application pages
+├── store/         # State management
+├── styles/        # Global styles
+├── types/         # TypeScript type definitions
+└── utils/         # Utility functions
+```
+
+## 🚀 Deployment
+
+The project is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the master branch.
+
+## 🔑 Technologies
 
 - React 18
 - TypeScript
 - Redux Toolkit
 - React Query
 - React Router
+- CSS Modules
 - Axios
 - Zod
 - Vite
 
-## 🔧 Installation and Setup
+## 📝 License
 
-1. Clone repository:
-```bash
-git clone https://github.com/Vega781/vk-marusya.git
-```
-```bash
-cd vk-marusya/vk-marusya
-```
-2. Install dependencies:
-```bash
-npm install
-```
-3. Run in development mode:
-```bash
-npm run dev
-```
-4. Build project:
-```bash
-npm run build
-```
 
-## 📝 Scripts
-
-- `npm run dev` - run in development mode
-- `npm run build` - build project
-- `npm run lint` - check code
-- `npm run preview` - preview build
+Этот проект распространяется под лицензией [MIT](./LICENSE).
